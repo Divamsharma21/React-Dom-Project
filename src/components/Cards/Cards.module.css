@@ -1,0 +1,57 @@
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    height: fit-content;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardHeader {
+    background-color:rgb(215, 57, 22);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .imageContent {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .cardContent {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .button {
+    background-color:rgb(215, 57, 22);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    animation: bounce 0.5s;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }  
+ 
