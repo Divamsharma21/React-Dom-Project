@@ -10,6 +10,7 @@ import Contact from './components/Contact us/Contact.jsx'
 import Project from './components/Project/Project.jsx'
 import Cards from './components/Cards/Cards.jsx'
 import User from './components/User/User.jsx'
+import LogIn from './components/Log In/LogIn.jsx'
 import Github,{githubInfoLoader} from './components/Github/Github.jsx'
  
 
@@ -44,6 +45,7 @@ const router =createBrowserRouter(
          <Route path='Cards' element={<Cards />} />
            </Route>
     <Route path='user/:userid' element={<User />} />
+    {/* <Route path='LogIn' element={<LogIn/>} /> */}
     <Route 
     loader={githubInfoLoader}
     path='github' 
